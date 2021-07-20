@@ -10,6 +10,9 @@ import org.springframework.stereotype.Controller;
 /**
  * Created by rajeevkumarsingh on 24/07/17.
  */
+
+// 메시지 처리방법을 정의
+// 한 클라이언트에서 메시지를 수신한 다음 다른 클라이언트로 브로드캐스트함
 @Controller
 public class ChatController {
 
